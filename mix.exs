@@ -41,7 +41,7 @@ defmodule Arc.Ecto.Mixfile do
 
   defp deps do
     [
-      {:arc, git: "https://github.com/lpotepa/arc.git", branch: :master},
+      {:arc, git: "https://github.com/lpotepa/arc.git", ref: "c937c87265135dd738421a093ddda33567c59f18"},
       {:ecto, ">= 2.1.0"},
       {:mock, "~> 0.3.3", only: :test},
       {:ex_doc, ">= 0.0.0", only: :dev}
